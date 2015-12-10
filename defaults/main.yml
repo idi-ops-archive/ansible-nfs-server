@@ -1,0 +1,7 @@
+---
+nfs_server_exports: []
+#  - dir:
+#    allow:
+#    options: (optional)
+
+nfs_server_default_options: "rw,sync,no_root_squash,no_subtree_check"

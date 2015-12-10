@@ -1,0 +1,3 @@
+{% for entry in nfs_server_exports %}
+{{ entry.dir }} {{ entry.allow }}({{ entry.options|default(nfs_server_default_options) }})
+{% endfor %}
